@@ -1,0 +1,22 @@
+2024-12-22 12:17:23,965 - ERROR - Login failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ap_email"]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102dc7184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x0000000102dbf9d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x000000010282c968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000102870d50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x00000001028aa5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000102865568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001028661b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x0000000102d929ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000102d95ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x0000000102d7986c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x0000000102d9658c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x0000000102d6b09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x0000000102db04b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000102db0634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000102dbf648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018281f2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018281a0fc thread_start + 8
+
+2024-12-22 12:17:23,965 - ERROR - Failed to login. Exiting...
